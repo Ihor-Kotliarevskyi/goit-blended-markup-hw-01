@@ -1,0 +1,48 @@
+body {
+    font-family: "poppins" sans-serif;
+}
+
+/* Header START */
+
+.customer-header {}
+
+.customer-header-navigation {}
+
+.customer-header-logo-link {}
+
+.customer-header-logo {}
+
+.customer-header-navigation-list {}
+
+.customer-header-navigation-list-item {}
+
+.customer-header-navigation-list-link {}
+
+.customer-header-list {}
+
+.customer-header-list-item {}
+
+.customer-header-list-button {}
+
+.customer-header-scroll-button {}
+
+/* Header END */
+
+/* .. section START */
+
+.customer-hero {}
+
+.customer-hero-title {}
+
+.customer-hero-list {}
+
+.customer-hero-list-item {}
+
+.customer-hero-list-link {}
+
+.customer-hero-list-image {}
+
+/* .. section END */
+
+/* .. section START */
+/* .. section END */

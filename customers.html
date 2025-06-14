@@ -1,36 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Costomers</title>
-</head>
-<body>
-    <header id="top">
-        <nav>
-            <a href="index.html"><img src="./images/logo.svg" alt="Logo" />Product</a>
-            <ul>
-                <li>
-                    <a href="index.html">Product</a>
-                </li>
-                <li>
-                    <a href="pricing.html">Pricing</a>
-                </li>
-                <li>
-                    <a href="customer.html">Costomers</a>
-                </li>
-                <li>
-                    <a href="resources.html">Resources</a>
-                </li>
-            </ul>
-        </nav>
-        <ul>
-            <li><button type="button">Sign In</button></li>
-            <li><button type="button">Sign Up</button></li>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    />
+    <link rel="stylesheet" href="./css/customer-styles.css" />
+  </head>
+  <body>
+    <header id="top" class="customer-header">
+      <nav class="customer-header-navigation">
+        <a href="index.html" class="customer-header-logo-link">
+          <img
+            src="./images/customers/logo.png"
+            alt="Logo"
+            class="customer-header-logo"
+          />Product
+        </a>
+        <ul class="customer-header-navigation-list">
+          <li class="customer-header-navigation-list-item">
+            <a href="index.html" class="customer-header-navigation-list-link"
+              >Product</a
+            >
+          </li>
+          <li class="customer-header-navigation-list-item">
+            <a href="pricing.html" class="customer-header-navigation-list-link"
+              >Pricing</a
+            >
+          </li>
+          <li class="customer-header-navigation-list-item">
+            <a href="customer.html" class="customer-header-navigation-list-link"
+              >Costomers</a
+            >
+          </li>
+          <li class="customer-header-navigation-list-item">
+            <a
+              href="resources.html"
+              class="customer-header-navigation-list-link"
+              >Resources</a
+            >
+          </li>
         </ul>
-        <a href="#bottom">Scroll</a>
-        <hr />
-        </header>
-    
-</body>
+      </nav>
+      <ul class="customer-header-list">
+        <li class="customer-header-list-item">
+          <button type="button" class="customer-header-list-button">
+            Sign In
+          </button>
+        </li>
+        <li class="customer-header-list-item">
+          <button type="button" class="customer-header-list-button">
+            Sign Up
+          </button>
+        </li>
+      </ul>
+      <a href="#bottom" class="customer-header-scroll-button">Scroll</a>
+      <hr />
+    </header>
+    <section class="customer-hero">
+      <h1 class="customer-hero-title">Our Clients</h1>
+      <ul class="customer-hero-list">
+        <li class="customer-hero-list-item">
+          <a href="https://www.airbnb.com.ua" class="customer-hero-list-link">
+            <img
+              src="./images/customers/airbnb-logo.png"
+              alt="AirBnb"
+              class="customer-hero-list-image"
+            />
+          </a>
+        </li>
+        <li class="customer-hero-list-item">
+          <a href="https://www.google.com" class="customer-hero-list-link">
+            <img
+              src="./images/customers/google-logo.png"
+              alt="Google"
+              class="customer-hero-list-image"
+            />
+          </a>
+        </li>
+        <li class="customer-hero-list-item">
+          <a href="https://www.microsoft.com" class="customer-hero-list-link">
+            <img
+              src="./images/customers/microsoft-logo.png"
+              alt="Microsoft"
+              class="customer-hero-list-image"
+            />
+          </a>
+        </li>
+        <li class="customer-hero-list-item">
+          <a href="https://www.fedex.com" class="customer-hero-list-link">
+            <img
+              src="./images/customers/fedex-logo.png"
+              alt="FedEx"
+              class="customer-hero-list-image"
+            />
+          </a>
+        </li>
+      </ul>
+    </section>
+  </body>
 </html>
